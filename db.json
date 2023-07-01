@@ -1,16 +1,40 @@
 {
-  "posts":[
+  "tasks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "text": "Get Keys to Apartment",
+      "day": {
+        "year": 2023,
+        "month": 6,
+        "day": 30,
+        "hour": 14,
+        "minute": 15
+      },
+      "reminder": true,
+      "id": 8
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "text": "Pay Rent ",
+      "day": {
+        "year": 2023,
+        "month": 6,
+        "day": 30,
+        "hour": 12,
+        "minute": 30
+      },
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "text": "Go to the library",
+      "day": {
+        "year": 2023,
+        "month": 7,
+        "day": 30,
+        "hour": 14,
+        "minute": 30
+      },
+      "reminder": true,
+      "id": 10
     }
   ]
 }
